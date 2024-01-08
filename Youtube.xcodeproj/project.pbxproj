@@ -17,6 +17,7 @@
 		6B48D3D52B4AE2AE003F65DC /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B48D3D42B4AE2AE003F65DC /* Video.swift */; };
 		6B48D3D72B4AF2D6003F65DC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B48D3D62B4AF2D6003F65DC /* Model.swift */; };
 		6B48D3D92B4BEE1A003F65DC /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B48D3D82B4BEE1A003F65DC /* Response.swift */; };
+		6B6A63BD2B4C44730058C7AB /* ConstansTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6A63BC2B4C44730058C7AB /* ConstansTemplate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		6B48D3D42B4AE2AE003F65DC /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		6B48D3D62B4AF2D6003F65DC /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		6B48D3D82B4BEE1A003F65DC /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		6B6A63BC2B4C44730058C7AB /* ConstansTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstansTemplate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				6B48D3C22B4A9FD5003F65DC /* ViewController.swift */,
 				6B48D3C42B4A9FD5003F65DC /* Main.storyboard */,
 				6B48D3D22B4ABFC1003F65DC /* Constants.swift */,
+				6B6A63BC2B4C44730058C7AB /* ConstansTemplate.swift */,
 				6B48D3D42B4AE2AE003F65DC /* Video.swift */,
 				6B48D3D82B4BEE1A003F65DC /* Response.swift */,
 				6B48D3D62B4AF2D6003F65DC /* Model.swift */,
@@ -156,6 +159,7 @@
 				6B48D3D72B4AF2D6003F65DC /* Model.swift in Sources */,
 				6B48D3D32B4ABFC1003F65DC /* Constants.swift in Sources */,
 				6B48D3D52B4AE2AE003F65DC /* Video.swift in Sources */,
+				6B6A63BD2B4C44730058C7AB /* ConstansTemplate.swift in Sources */,
 				6B48D3D92B4BEE1A003F65DC /* Response.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
