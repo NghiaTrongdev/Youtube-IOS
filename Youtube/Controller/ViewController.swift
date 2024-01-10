@@ -28,7 +28,21 @@ class ViewController: UIViewController ,UITableViewDataSource,UITableViewDelegat
         
 
     }
-    /// Model-delegate methods
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard tableView.indexPathForSelectedRow != nil else
+        {
+            return
+        }
+        
+        let selectedVideo = videos[tableView.indexPathForSelectedRow!.row]
+        
+        let detailVC = segue.destination as! DetailViewController
+        
+        detailVC.video = selectedVideo
+        
+    }
+    
+    // Model-delegate methods
     func videosFetched(_ videos: [Video]) {
         
         self.videos = videos
